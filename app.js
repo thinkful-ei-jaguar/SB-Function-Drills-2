@@ -57,3 +57,26 @@ console.log(decode( "bells"));
 console.log(decode( "brown"));
 console.log(decode( "croon"));
 console.log(decode( "droop"));
+
+function month(monthName);
+switch(month) {
+case 'January':
+case 'March':
+case 'May':
+case 'July':
+case 'August':
+case 'October':
+case 'December':
+console.log("There are 31 days in ${monthName}");
+      break;
+    case 'September':
+    case 'April':
+    case 'June':
+    case 'November':
+            console.log("There are 30 days in ${month}");
+      break;
+    case 'February':
+            console.log("There are 28 days in February");
+  }
+
+  month("February");
